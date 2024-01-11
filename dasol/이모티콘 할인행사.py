@@ -1,5 +1,8 @@
 def solution(users, emoticons):
-    # 모든 case를 전부 조사해서 그중에 제일 많은 걸로 가야하는 걸까? n-back 알고리즘을 쓰면 어떨까?
+    # 모든 case를 전부 조사해서 그중에 제일 많은 걸로 가야하는 걸까?
+    # n-back 알고리즘을 쓰면 어떨까?
+    # 거를 수 있는 케이스가 아무리 생각해도 없었다.
+
     length_user = len(users)
     length_emoticons = len(emoticons)
     tracking = [ 0 for _ in range(length_emoticons)]
